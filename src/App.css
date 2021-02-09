@@ -1,38 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-family: "Raleway",sans-serif;
+  justify-content: flex-start;
+
 }
 
 .App-logo {
   height: 40vmin;
-  pointer-events: none;
+  pointer-events:none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin 1 2s ease-out;
   }
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ffffff;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+ 
+  align-items:left;
+
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(30, 30, 30);
+  top:120px;
+  
+position:fixed;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+li, a , button{
+  
+  font-weight: 500;
+  font-size:medium;
+  color:rgb(43, 41, 41);
+  text-decoration: none;
 }
+.App-Navbar{
+
+  justify-content:space-between;
+  align-items:center;
+  padding: 20px 10%;
+  background-color:rgb(255, 255, 255);
+ 
+  width:100%;
+  color: rgb(30, 30, 30);
+  display: flex;
+  position:sticky;
+  top:0;
+  border-bottom: grey solid 1px;
+
+
+
+}
+.first-element{
+  padding:10 10 1px;
+  
+margin-bottom: 10%;
+}
+
+.App-content{
+  padding:5%;
+  margin:1%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size:x-large;
+  
+
+}
+.content-element{
+  
+ padding:3px;
+  
+}
+.logo{
+  cursor:pointer;
+
+}
+.nav__links{
+  list-style:none;
+
+
+}
+.nav__links li{
+  display:inline-block;
+  padding: 0px 20px;
+  margin-top:10px;
+
+}
+.nav__links li a{
+  transition: all 0.5s ease 0s;
+  color: rgb(30, 30, 30);
+
+}
+
+
+.nav__links li a:hover{
+  color:rgba(30, 30, 30, 0.274);
+  text-decoration:none;
+}
+
+button{
+  padding:9px 25px;
+  background-color: cyan;
+  border:none;
+  border-radius: 50px;
+  cursor:pointer;
+  transition: all 0.5s ease 0s;
+
+}
+button:hover{
+  background-color: rgba(0, 255, 255, 0.137);
+}
+
 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(180deg);
   }
 }
