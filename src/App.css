@@ -1,19 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
 
-.App {
-	display: flex;
-	flex-direction: column;
+* {
 	font-family: "Raleway", sans-serif;
-	justify-content: flex-start;
 }
 
-.App-logo {
+.transition-title {
 	height: 10vmin;
 	pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-	.App-logo {
+	.transition-title {
 		animation: fadeIn 1 2s ease-in;
 	}
 }
@@ -22,23 +19,17 @@
 	background-color: #ffffff;
 	min-height: 100vh;
 
-	align-items: left;
+	align-items: flex-start;
+	padding: 5%;
+	margin: 1%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	font-size: x-large;
 
-	font-size: calc(10px + 2vmin);
 	color: rgb(30, 30, 30);
-	top: 120px;
-
-	position: fixed;
 }
 
-li,
-a,
-button {
-	font-weight: 500;
-	font-size: medium;
-	color: rgb(43, 41, 41);
-	text-decoration: none;
-}
 .App-Navbar {
 	justify-content: space-between;
 	align-items: center;
@@ -58,21 +49,10 @@ button {
 	margin-bottom: 10%;
 }
 
-.App-content {
-	padding: 5%;
-	margin: 1%;
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	font-size: x-large;
-}
 .content-element {
 	padding: 3px;
 }
 
-.nav__links {
-	list-style: none;
-}
 .nav__links li {
 	display: inline-block;
 	padding: 0px 20px;
@@ -89,7 +69,7 @@ button {
 }
 .footer {
 	color: rgb(80, 80, 80);
-	position: fixed;
+	position: relative;
 	bottom: 0;
 	width: 100%;
 	text-align: center;
@@ -98,25 +78,56 @@ button {
 	font-size: large;
 	background-color: white;
 }
-
-button {
-	padding: 9px 25px;
-	background-color: cyan;
-	border: none;
-	border-radius: 50px;
-	cursor: pointer;
-	transition: all 0.5s ease 0s;
-}
-button:hover {
-	background-color: rgba(0, 255, 255, 0.137);
-}
-.about-container {
+.contact {
 	display: flex;
 	flex-direction: column;
+	border: solid gray;
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 3%;
+	width: 80%;
+	margin: 5% 5%;
+}
 
-	padding: 2%;
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+textarea {
+	height: 200px;
+	resize: vertical;
+}
+
+input[type="submit"] {
+	background-color: #4caf50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #45a049;
+}
+
+.about-container {
+	display: flex;
 	align-items: flex-start;
-	margin: 5%;
+
+	flex-direction: column;
+	width: 60%;
+
+	margin: 2% auto;
 }
 .about-container h1 {
 	width: 100%;
@@ -124,7 +135,7 @@ button:hover {
 
 @keyframes fadeIn {
 	0% {
-		opacity: 00;
+		opacity: 0;
 	}
 	100% {
 		opacity: 1;
