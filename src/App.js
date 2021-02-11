@@ -1,6 +1,6 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, HashRouter, Route, Switch } from "react-router-dom";
 import Home from "./components/Home";
 import About from "./components/About";
 import SinglePost from "./components/SinglePost";
@@ -15,7 +15,7 @@ import Navbar from "./components/NavBar";
 
 export default function App() {
 	return (
-		<BrowserRouter>
+		<HashRouter>
 			<NavBar />
 
 			<Switch>
@@ -28,6 +28,6 @@ export default function App() {
 				<Route component={Project} path="/project" />
 			</Switch>
 			<Footer />
-		</BrowserRouter>
+		</HashRouter>
 	);
 }
