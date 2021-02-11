@@ -33,7 +33,7 @@ export default function About() {
 					football - I'm playing with small amateur local teams, on artificial
 					turf mostly.{" "}
 				</li>
-				<li>skateboarding - I love it</li>
+				<li>snowboarding - I love it</li>
 				<li>skiing</li>
 				<li>fitness - I use to go to gym regularly</li>
 				<li>hiking</li>
