@@ -8,16 +8,16 @@ export default function Navbar() {
 			<nav>
 				<ul className="nav__links">
 					<li>
-						<a href="/#/">Home</a>
+						<a href="/portfoliowebsite/#/">Home</a>
 					</li>
 					<li>
-						<a href="/#/mywork">My work</a>
+						<a href="/portfoliowebsite/#/mywork">My work</a>
 					</li>
 					<li>
-						<a href="/#/about">About</a>
+						<a href="/portfoliowebsite/#/about">About</a>
 					</li>
 					<li>
-						<a href="/#/contact">Contact</a>
+						<a href="/portfoliowebsite/#/contact">Contact</a>
 					</li>
 				</ul>
 			</nav>
