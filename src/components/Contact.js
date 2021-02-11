@@ -2,33 +2,46 @@ import React from "react";
 
 export default function Contact() {
 	return (
-		<div class="contact">
-			<form action="/action_page.php">
-				<label for="fname">Name</label>
-				<input
-					type="text"
-					id="fname"
-					name="fullName"
-					placeholder="Your name.."
-				/>
+		<>
+			<div class="contact">
+				<h2> Contact me...</h2>
 
-				<label for="lname">Email</label>
-				<input
-					type="email"
-					id="email"
-					name="email"
-					placeholder="Your email.."
-				/>
+				<form action="/action_page.php">
+					<div>
+						<label for="fname">Name</label>
+						<input
+							type="text"
+							id="fname"
+							name="fullName"
+							placeholder="Your name.."
+							required
+						/>
+					</div>
+					<div>
+						<label for="lname">
+							Email <br />
+						</label>
+						<input
+							type="email"
+							id="email"
+							name="email"
+							placeholder="Your email.."
+							required
+						/>
+					</div>
+					<div>
+						<label for="subject">Message</label>
+						<textarea
+							id="subject"
+							name="subject"
+							placeholder="Your message..."
+							required
+						></textarea>
+					</div>
 
-				<label for="subject">Message</label>
-				<textarea
-					id="subject"
-					name="subject"
-					placeholder="Write something.."
-				></textarea>
-
-				<input type="submit" value="Submit" />
-			</form>
-		</div>
+					<input type="submit" value="Submit" />
+				</form>
+			</div>
+		</>
 	);
 }

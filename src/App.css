@@ -2,6 +2,7 @@
 
 * {
 	font-family: "Raleway", sans-serif;
+	color: rgb(54, 54, 54);
 }
 
 .transition-title {
@@ -86,12 +87,14 @@
 	background-color: #f2f2f2;
 	padding: 3%;
 	width: 80%;
+	max-width: 700px;
 	margin: 5% 5%;
 }
+.contact div {
+	display: flex;
+	flex-direction: column;
+}
 
-input[type="text"],
-input[type="email"],
-select,
 textarea {
 	width: 100%;
 	padding: 12px;
@@ -102,6 +105,13 @@ textarea {
 	margin-bottom: 16px;
 	resize: vertical;
 }
+
+input[type="text"],
+input[type="email"] {
+	width: 50%;
+	padding: 2%;
+}
+
 textarea {
 	height: 200px;
 	resize: vertical;
@@ -131,6 +141,42 @@ input[type="submit"]:hover {
 }
 .about-container h1 {
 	width: 100%;
+}
+.about-container ul {
+	list-style-type: circle;
+	margin-left: 30px;
+}
+
+.mywork h4 {
+	padding: 3% 2%;
+}
+.mywork a {
+	color: rgb(30, 30, 30);
+	text-decoration: none;
+}
+.mywork a:hover {
+	color: rgba(30, 30, 30, 0.274);
+	text-decoration: none;
+	transition: all 0.5s ease 0s;
+}
+
+.mywork th,
+.mywork td {
+	text-align: center;
+
+	padding: 1% 2%;
+	border-right: rgba(30, 30, 30, 0.274) solid 1px;
+	word-wrap: normal;
+}
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
+table {
+	border: gray solid 3px;
+	width: max-content;
+	margin: 1% 2%;
+	max-width: 800px;
+	overflow-x: auto;
 }
 
 @keyframes fadeIn {
