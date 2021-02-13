@@ -2,14 +2,12 @@ import React from "react";
 
 export default function Home() {
 	return (
-		<div className="App-header">
-			<h1 className="content-element first-element">
-				Sas Iacob Constantin Homepage
-			</h1>
-			<p className="content-element">
+		<div className="home-container">
+			<h1>Sas Iacob Constantin Homepage</h1>
+			<p>
 				<b>Hello world and welcome to my homepage!</b>
 			</p>
-			<p className="content-element">
+			<p>
 				My name is Sas Iacob Constantin, and this is my website. You can take a
 				look at my projects, key informations about me, or contact me.
 			</p>
