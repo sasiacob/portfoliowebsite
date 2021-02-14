@@ -3,8 +3,8 @@ import React from "react";
 export default function Contact() {
 	return (
 		<>
-			<div class="contact">
-				<h2> Contact me...</h2>
+			<div class="my-container home-container contact">
+				<h1> Contact me...</h1>
 
 				<form action="/action_page.php">
 					<div>

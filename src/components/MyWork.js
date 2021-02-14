@@ -3,12 +3,12 @@ import React from "react";
 export default function About() {
 	return (
 		<>
-			<div className="mywork">
-				<h4>
+			<div className="my-container about-container">
+				<h1>
 					<a href="https://github.com/sasiacob" target="_blank">
 						Github
 					</a>
-				</h4>
+				</h1>
 
 				<table>
 					<tr>

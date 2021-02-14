@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Home() {
 	return (
-		<div className="home-container">
+		<div className="my-container home-container">
 			<h1>Sas Iacob Constantin Homepage</h1>
 			<p>
 				<b>Hello world and welcome to my homepage!</b>

@@ -3,8 +3,8 @@ import React from "react";
 export default function Navbar() {
 	return (
 		<div className="container-nav">
-			<div className="site-title">
-				<h1>Portfolio</h1>
+			<div>
+				<h1 className="site-title">Portfolio</h1>
 			</div>
 			<nav>
 				<ul className="nav-list">
