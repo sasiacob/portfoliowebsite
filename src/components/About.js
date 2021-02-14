@@ -3,7 +3,7 @@ import React from "react";
 export default function About() {
 	return (
 		<div className="my-container about-container">
-			<h1 className="App-logo transition-title">About me...</h1>
+			<h1>About me...</h1>
 			<p>
 				I'm from Sibiu, Romania. I am a computer science student (currently) at
 				the Faculty of Engineering, "Lucian Blaga" University of Sibiu. I am in

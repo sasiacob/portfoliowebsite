@@ -6,7 +6,7 @@ export default function About() {
 			<div className="my-container about-container">
 				<h1>
 					<a href="https://github.com/sasiacob" target="_blank">
-						Github
+						Github page
 					</a>
 				</h1>
 
@@ -84,7 +84,7 @@ export default function About() {
 					</p>
 					<p>
 						<strong>Description: </strong> Personal project, wich gave me
-						substantial knowldege about Web development, fron-end, back-end etc
+						substantial knowldege about Web development, frontend, backend etc.
 					</p>
 					<p>
 						<strong>Language(s): </strong> HTMl, CSS, React
@@ -202,9 +202,9 @@ export default function About() {
 					</p>
 					<p>
 						<strong>Description: </strong> This project consists in creating a
-						parameterizable simulator wich exposes the influence of{" "}
-						<b>maximum number of instructions launched capability</b> of the cpu
-						on the <b>IR (instruction rate)</b>.{" "}
+						parameterizable simulator wich exposes the influence of CPU's{" "}
+						<b>maximum number of instructions launched capability</b> on the{" "}
+						<b>IR (instruction rate)</b>.{" "}
 					</p>
 					<p>
 						<strong>Language(s): </strong> C#

@@ -43,6 +43,9 @@ body {
 	font-weight: 500;
 	padding: 1rem 0;
 }
+.contact-item {
+	border-bottom: rgba(60, 60, 60, 0.2) solid 1px;
+}
 .my-container p {
 	padding: 0.25rem 0;
 }
@@ -98,6 +101,16 @@ body {
 
 	padding: 0em 0em;
 }
+.my-container h1 a {
+	color: rgb(60, 60, 60);
+	font-weight: 500;
+	font-size: 2rem;
+}
+.my-container h1 a:hover {
+	color: rgba(60, 60, 60, 0.274);
+
+	transition: all 0.5s ease 0s;
+}
 .nav-link:hover {
 	color: rgba(60, 60, 60, 0.274);
 
@@ -121,9 +134,12 @@ tr:nth-child(odd) td {
 	background-color: #dddddd;
 }
 
-.contact div {
+.contact {
 	display: flex;
 	flex-direction: column;
+	width: max-content;
+
+	margin-top: 1rem;
 }
 
 textarea {

@@ -4,9 +4,17 @@ export default function Contact() {
 	return (
 		<>
 			<div class="my-container home-container contact">
-				<h1> Contact me...</h1>
-
+				<h3> You can reach me at:</h3>
+				<p className="contact-item">
+					<strong>Email: </strong>
+					sasiacobconstantin@yahoo.com
+				</p>
+				<p className="contact-item">
+					<strong>Phone number:</strong> +40743481345
+				</p>
+				{/*
 				<form action="/action_page.php">
+
 					<div>
 						<label for="fname">Name</label>
 						<input
@@ -41,6 +49,7 @@ export default function Contact() {
 
 					<input type="submit" value="Submit" />
 				</form>
+*/}
 			</div>
 		</>
 	);
