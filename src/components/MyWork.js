@@ -21,7 +21,7 @@ export default function About() {
 					</tr>
 					<tr>
 						<td>ReactJs</td>
-						<td>1</td>
+						<td>{"<1"}</td>
 						<td>2</td>
 					</tr>
 					<tr>
@@ -46,7 +46,7 @@ export default function About() {
 					</tr>
 					<tr>
 						<td>Javascript</td>
-						<td> 1</td>
+						<td> {"<1"}</td>
 						<td> 2</td>
 					</tr>
 					<tr>
@@ -66,7 +66,7 @@ export default function About() {
 					</tr>
 					<tr>
 						<td>Git</td>
-						<td> 1</td>
+						<td> {"<1"}</td>
 						<td> 2</td>
 					</tr>
 					<tr>
@@ -76,99 +76,146 @@ export default function About() {
 					</tr>
 				</table>
 
-				<table>
-					<tr>
-						<th colSpan="5">College/Personal Projects</th>
-					</tr>
-					<tr>
-						<th>Name</th>
-						<th>Description</th>
-						<th>Language(s)</th>
-						<th>Platform</th>
-						<th>Link</th>
-					</tr>
-					<tr>
-						<td>Personal website (Portfolio)</td>
-						<td>
-							Personal project, wich gave me substantial knowldege about Web
-							development, fron-end, back-end etc
-						</td>
-						<td>HTMl, CSS, React</td>
-						<td>VSCode</td>
-						<td>Link</td>
-					</tr>
-					<tr>
-						<td>XOR BackPropagation</td>
-						<td>
-							College project, in wich I implemented a{" "}
-							<b>BackPropagation neural network</b> that is capable to learn the
-							XOR function, with 2 entry-units, 1 hidden layer with 2 neurons
-							and 1 output.
-						</td>
-						<td>C#</td>
-						<td>Visual Studio</td>
-						<td>Link</td>
-					</tr>
-					<tr>
-						<td>Area division BackPropagation</td>
-						<td>
-							BackPropagation Network wich learns to divide all possible points
-							in areas based on entry points wich have defined that areas.{" "}
-						</td>
-						<td>C#</td>
-						<td>Visual Studio</td>
-						<td>Link</td>
-					</tr>
-					<tr>
-						<td>K-means Clustering</td>
-						<td>
-							College project in wich some clusers (random number, random
-							position) take all the nearest points, and then move in the centre
-							of that points. The algorithm stops when the clusters don't move
-							anymore.{" "}
-						</td>
-						<td>C#</td>
-						<td>Visual Studio</td>
-						<td>Link</td>
-					</tr>
-					<tr>
-						<td>SOM</td>
-						<td>
-							Project in wich I implemented a{" "}
-							<b> Self Organizing Map artificial neural network (ANN) </b> that
-							is trained using unsupervised learging. Each neuron has
-							connections with their neighbour and they move towards the centre
-							of given points.{" "}
-						</td>
-						<td>C#</td>
-						<td>Visual Studio</td>
-						<td>Link</td>
-					</tr>
-					<tr>
-						<td>MPI Matrix </td>
-						<td>
-							Message Passing Interface project wich multiplies 2 matrices in
-							parallel. The algorithm is divided in several processes, wich are
-							executed in parallel.{" "}
-						</td>
-						<td>C / C++)</td>
-						<td>Visual Studio</td>
-						<td>Link</td>
-					</tr>
-					<tr>
-						<td>Superscalar Architecture Simulator</td>
-						<td>
-							{" "}
-							This project consists in creating a parameterizable simulator wich
-							exposes the influence of{" "}
-							<b>maximum number of instructions launched capability</b> of the
-							cpu on the <b>IR (instruction rate)</b>.{" "}
-						</td>
-						<td>C#</td>
-						<td>Visual Studio</td>
-						<td>Link</td>
-					</tr>
-				</table>
+				<h1>College/Personal Projects</h1>
+
+				<article>
+					<p>
+						<strong>Name: </strong> Personal website (Portfolio)
+					</p>
+					<p>
+						<strong>Description: </strong> Personal project, wich gave me
+						substantial knowldege about Web development, fron-end, back-end etc
+					</p>
+					<p>
+						<strong>Language(s): </strong> HTMl, CSS, React
+					</p>
+					<p>
+						<strong>Platform: </strong> VSCode
+					</p>
+					<p>
+						<strong>Link:</strong> Link
+					</p>
+				</article>
+
+				<article>
+					<p>
+						<strong>Name: </strong> XOR BackPropagation
+					</p>
+					<p>
+						<strong>Description: </strong> College project, in wich I
+						implemented a <b>BackPropagation neural network</b> that is capable
+						to learn the XOR function, with 2 entry-units, 1 hidden layer with 2
+						neurons and 1 output.
+					</p>
+					<p>
+						<strong>Language(s): </strong> C#
+					</p>
+					<p>
+						<strong>Platform: </strong> Visual Studio
+					</p>
+					<p>
+						<strong>Link:</strong> Link
+					</p>
+				</article>
+				<article>
+					<p>
+						<strong>Name: </strong> Area division BackPropagation
+					</p>
+					<p>
+						<strong>Description: </strong> BackPropagation Network wich learns
+						to divide all possible points in areas based on entry points wich
+						have defined that areas.{" "}
+					</p>
+					<p>
+						<strong>Language(s): </strong> C#
+					</p>
+					<p>
+						<strong>Platform: </strong> Visual Studio
+					</p>
+					<p>
+						<strong>Link:</strong> Link
+					</p>
+				</article>
+				<article>
+					<p>
+						<strong>Name: </strong> K-means Clustering
+					</p>
+					<p>
+						<strong>Description: </strong> College project in wich some clusers
+						(random number, random position) take all the nearest points, and
+						then move in the centre of that points. The algorithm stops when the
+						clusters don't move anymore.{" "}
+					</p>
+					<p>
+						<strong>Language(s): </strong> C#
+					</p>
+					<p>
+						<strong>Platform: </strong> Visual Studio
+					</p>
+					<p>
+						<strong>Link:</strong> Link
+					</p>
+				</article>
+				<article>
+					<p>
+						<strong>Name: </strong> SOM
+					</p>
+					<p>
+						<strong>Description: </strong> Project in wich I implemented a{" "}
+						<b> Self Organizing Map artificial neural network (ANN) </b> that is
+						trained using unsupervised learging. Each neuron has connections
+						with their neighbour and they move towards the centre of given
+						points.{" "}
+					</p>
+					<p>
+						<strong>Language(s): </strong> C#
+					</p>
+					<p>
+						<strong>Platform: </strong> Visual Studio
+					</p>
+					<p>
+						<strong>Link:</strong> Link
+					</p>
+				</article>
+				<article>
+					<p>
+						<strong>Name: </strong> MPI Matrix
+					</p>
+					<p>
+						<strong>Description: </strong> Message Passing Interface project
+						wich multiplies 2 matrices in parallel. The algorithm is divided in
+						several processes, wich are executed in parallel.{" "}
+					</p>
+					<p>
+						<strong>Language(s): </strong> C / C++)
+					</p>
+					<p>
+						<strong>Platform: </strong> Visual Studio
+					</p>
+					<p>
+						<strong>Link:</strong> Link
+					</p>
+				</article>
+				<article>
+					<p>
+						<strong>Name: </strong> Superscalar Architecture Simulator
+					</p>
+					<p>
+						<strong>Description: </strong> This project consists in creating a
+						parameterizable simulator wich exposes the influence of{" "}
+						<b>maximum number of instructions launched capability</b> of the cpu
+						on the <b>IR (instruction rate)</b>.{" "}
+					</p>
+					<p>
+						<strong>Language(s): </strong> C#
+					</p>
+					<p>
+						<strong>Platform: </strong> Visual Studio
+					</p>
+					<p>
+						<strong>Link:</strong> Link
+					</p>
+				</article>
 			</div>
 		</>
 	);
