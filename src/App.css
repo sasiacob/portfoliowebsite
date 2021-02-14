@@ -183,12 +183,20 @@ input[type="submit"]:hover {
 		width: 90%;
 	}
 }
+@media (max-width: 670px) {
+	.container-nav {
+		flex-direction: column;
+		padding: 0.1rem 0;
+		align-items: center;
+		text-align: center;
+	}
+}
 @media (max-width: 500px) {
 	.container-nav h1 {
 		font-size: 1.5rem;
 	}
 	.container-nav ul li {
-		font-size: 0.5rem;
+		font-size: 0.8rem;
 	}
 	.my-container h1 {
 		font-size: 1.75rem;
